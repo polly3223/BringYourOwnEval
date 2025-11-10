@@ -1,6 +1,8 @@
 import { Elysia, t } from "elysia";
+import { cors } from "@elysiajs/cors";
 
 const app = new Elysia()
+  .use(cors())
   .get("/", () => Bun.file("./index.html"))
   .guard(
     {
