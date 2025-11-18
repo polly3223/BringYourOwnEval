@@ -306,3 +306,5 @@ bun run format
 - [Elysia](https://elysiajs.com/) - Fast & ergonomic web framework
 - TypeScript
 - Prettier (code formatting)
+
+up
